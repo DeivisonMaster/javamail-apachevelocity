@@ -41,7 +41,7 @@ public class GeradorDeEmail implements Serializable {
 
 	private Properties properties = System.getProperties();
 	private String to = "";
-	private String from = "deivison.matos@irede.net";
+	private String from = "";
 
 	public GeradorDeEmail() {
 	}
