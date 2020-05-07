@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Teste envio de e-mail com Apache Velocity</title>
+	</head>
+	<body>
+		<table style="width: 600px;">
+			<tr colspan="2">
+				<td>
+					<h1>Este é um e-mail de teste</h1>
+				</td>
+			</tr>
+			<tr>
+				<th>Nome</th>
+			</tr>
+			<tr>
+				<td>$paramNome</td>
+			</tr>
+            <tr>
+				<td>
+					<p>Aqui pode existir conteúdo HTML</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>$paramAutor</p>
+				</td>
+			</tr>
+        </table>
+		
+	</body>
+</html>
